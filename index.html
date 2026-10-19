@@ -103,7 +103,6 @@ code> posições, e transformamos o número de volta em caractere.</li>
  // Verifica se o caractere é uma letra de A-Z
  if (codigo >= 65 && codigo <= 90) {
  // Aplica o deslocamento de 3 posições e trata a rotação do alfabeto
-   Z -> C
  codigo = ((codigo - 65 + 3) % 26) + 65;
  }
  resultado += String.fromCharCode(codigo);
